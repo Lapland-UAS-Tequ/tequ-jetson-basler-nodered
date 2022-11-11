@@ -11,12 +11,15 @@ This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Develo
 Please first configure your Jetson setup using following repositiories:
 
 Basic configuration for Jetson:
+
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-setup
 
 Triton Inference Server configuration:
+
 https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
 Basler Camera configuration:
+
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
 # Node-RED flow functionality
