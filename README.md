@@ -38,7 +38,7 @@ npm install node-red-node-exif &&
 npm install canvas &&
 npm install numjs &&
 npm install sharp &&
-npm install uuid &&
+npm install uuid 
 ```
 
 
