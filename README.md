@@ -21,21 +21,24 @@ https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
 
 # Install Node-RED nodes
-
+```
 cd ~/.node-red
+```
 
-npm install node-red-contrib-image-info
-npm install node-red-contrib-image-output
-npm install node-red-contrib-moment
-npm install node-red-contrib-multipart-stream-encoder
-npm install node-red-contrib-pipe2jpeg
-npm install node-red-node-daemon
-npm install node-red-node-smooth
-npm install canvas
-npm install numjs
-npm install sharp
-npm install uuid
-
-
+```
+npm install node-red-contrib-image-info &&
+npm install node-red-contrib-image-output &&
+npm install node-red-contrib-moment &&
+npm install node-red-contrib-exif &&
+npm install node-red-contrib-multipart-stream-encoder &&
+npm install node-red-contrib-pipe2jpeg &&
+npm install node-red-node-daemon && 
+npm install node-red-node-smooth && 
+npm install node-red-node-exif &&
+npm install canvas &&
+npm install numjs &&
+npm install sharp &&
+npm install uuid &&
+```
 
 
