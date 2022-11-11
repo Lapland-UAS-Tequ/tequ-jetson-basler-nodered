@@ -29,13 +29,13 @@ https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 - Object detection to video stream using Triton Inference Server and "ssd-example-model" that detects common things
 - Annotates detected objects to video stream
 
-Video streams will be available in following addresses:
+Real time video streams will be available in following addresses:
 
-rtsp://JETSON_IP:8554/CAMERA_SERIAL_NUMBER
+- rtsp://JETSON_IP:8554/CAMERA_SERIAL_NUMBER
 
-http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/stream/1
+- http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/stream/1
 
-http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/annotated/1
+- http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/annotated/1
 
 
 # Install Node-RED nodes
