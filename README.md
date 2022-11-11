@@ -59,7 +59,8 @@ npm install uuid
 
 # Install Node-RED flow
 
-```[
+```
+[
     {
         "id": "04508fd4d91dd935",
         "type": "tab",
@@ -3194,5 +3195,6 @@ npm install uuid
         "y": 40,
         "wires": []
     }
-]```
+]
+```
 
