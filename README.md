@@ -24,6 +24,10 @@ Basler Camera configuration:
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
+Examples to connect datasource to Tequ-API (credentials needed)
+
+https://github.com/Lapland-UAS-Tequ/tequ-api-client
+
 # Node-RED flow functionality
 - Starts local RTSP-server to serve encoded camera stream 
 - Starts GStreamer that connects to Basler camera using its serial number and predefined configuration file
