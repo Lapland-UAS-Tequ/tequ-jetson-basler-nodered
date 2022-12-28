@@ -61,6 +61,7 @@ npm install node-red-contrib-msg-speed &&
 npm install node-red-contrib-random-output &&
 npm install canvas &&
 npm install numjs &&
+npm install sharp &&
 npm install piscina &&
 npm install uuid 
 ```
