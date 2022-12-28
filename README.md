@@ -65,6 +65,10 @@ npm install piscina &&
 npm install uuid 
 ```
 
+Note: If you are using Jetpack 4.6.1 you have to install numjs manually:
+
+https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server#install-numjs-on-jetson-tested-on-ubuntu-1804--jetpack-46
+
 # Install Node-RED flow
 
 Copy and import this example flow to your Node-RED. Configure nodes to match your setup, this means that you should corrent paths to point right files in your system.
