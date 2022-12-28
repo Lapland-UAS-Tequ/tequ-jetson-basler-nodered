@@ -58,6 +58,7 @@ npm install node-red-node-daemon &&
 npm install node-red-node-smooth && 
 npm install node-red-node-exif &&
 npm install node-red-contrib-msg-speed &&
+npm install node-red-contrib-random-output &&
 npm install canvas &&
 npm install numjs &&
 npm install piscina &&
