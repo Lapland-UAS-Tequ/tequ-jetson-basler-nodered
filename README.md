@@ -30,6 +30,7 @@ Please first configure your Jetson setup using following repositiories:
   - Send tensor to Triton Inference Server for object detection using "ssd-example-model" that detects common things
   - Post-process Triton Inference Server response
   - Annotate detected objects to images
+  - Send annotated images to Tequ-API based on object detection threshold
 
 Real time video streams will be available in following addresses:
 
