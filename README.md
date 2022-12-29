@@ -8,8 +8,9 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 
 This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Developer Kit. Example flow should work with any Basler camera and can easily be modified to work with multiple cameras. Basic support for v4l2 video sources is also available. This is developed and tested with Logitech C920 USB camera.
 
-Other tested Jetson boards:
+Other tested Machines:
 - Neousys NRU-120S, Jetson AGX Xavier with Jetpack 4.6.1
+- Dell Precision 7560, Windows 10
 
 Please first configure your Jetson setup using following repositiories:
 - Basic configuration for Jetson: https://github.com/Lapland-UAS-Tequ/tequ-jetson-setup
