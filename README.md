@@ -30,18 +30,26 @@ https://github.com/Lapland-UAS-Tequ/tequ-api-client
 
 # Node-RED flow functionality
 - Starts local RTSP-server to serve encoded camera stream 
-- Starts GStreamer that connects to Basler camera using its serial number and predefined configuration file
+- Starts multiple GStreamer instances that connects to Basler cameras using its serial number and predefined configuration files
+- Starts GStreamer instances that connects to Logitech USB camera using v4l2_device video source (/dev/video0)
 - GStreamer reads camera video stream and publishes encoded H264/H265 video stream to RTSP server and JPEG stream to local TCP port
-- Object detection to video stream using Triton Inference Server and "ssd-example-model" that detects common things
-- Annotates detected objects to video stream
+- Node-RED application is used to 
+  - Manage GStreamer instances
+  - Manage Triton Inference Server Dockers
+  - Receive and process JPEG image streams from GStreamer
+  - Serve MJPEG streams in local network
+  - Convert image to tensor
+  - Send tensor to Triton Inference Server for object detection using "ssd-example-model" that detects common things
+  - Post-process Triton Inference Server response
+  - Annotate detected objects to images
 
 Real time video streams will be available in following addresses:
 
-- rtsp://JETSON_IP:8554/CAMERA_SERIAL_NUMBER
+- rtsp://IP:8554/CAMERA_SERIAL_NUMBER
 
-- http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/stream/1
+- http://IP:1880/camera/id/CAMERA_SERIAL_NUMBER/stream/1
 
-- http://JETSON_IP:1880/camera/id/CAMERA_SERIAL_NUMBER/annotated/1
+- http://IP:1880/camera/id/CAMERA_SERIAL_NUMBER/annotated/1
 
 
 # Install Node-RED nodes
@@ -81,7 +89,7 @@ This flow will add following subflows in your Node-RED:
 - gst - jetson
 - Parse JPEG
 - gst WD
-- Triton req
+- Triton request
 - Image to Tensor
 - Post-process
 
