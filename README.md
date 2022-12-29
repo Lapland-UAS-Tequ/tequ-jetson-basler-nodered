@@ -6,9 +6,9 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 
 # tequ-jetson-basler-nodered
 
-This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Developer Kit. Example flow should work with any Basler camera and can easily be modified to work with multiple cameras. Basic support for v4l2 video sources is also available. This is developed and tested with Logitech C920 USB camera.
+This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Developer Kit. Example flows should work with any Basler camera and can easily be modified to work with multiple cameras. Basic support for v4l2 video sources is also available. This is developed and tested with Logitech C920 USB camera.
 
-Other tested Machines:
+Other tested machines:
 - Neousys NRU-120S, Jetson AGX Xavier with Jetpack 4.6.1
 - Dell Precision 7560, Windows 10
 
