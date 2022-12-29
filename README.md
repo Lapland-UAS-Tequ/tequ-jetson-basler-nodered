@@ -6,9 +6,10 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 
 # tequ-jetson-basler-nodered
 
-This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Developer Kit. Other Jetson boards might work, but are not tested. Example flow should work with any Basler camera and can easily be modified to work with multiple cameras. 
+This repository is developed with fresh Jetpack 5.0.2 and Jetson AGX Orin Developer Kit. Example flow should work with any Basler camera and can easily be modified to work with multiple cameras. Also basic support for v4l2 video sources is also available. This is developed and tested with Logitech C920 USB camera.
 
-* Basic support for v4l2 video sources is also available. For example Logitech C920 USB camera is tested and it is working. 
+Other tested Jetson boards:
+- Neousys NRU-120S, Jetson AGX Xavier with Jetpack 4.6.1
 
 Please first configure your Jetson setup using following repositiories:
 
@@ -82,7 +83,7 @@ https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow#5-install-can
 
 # Install Node-RED flow
 
-Copy and import this example flow to your Node-RED. Configure nodes to match your setup, this means that you should corrent paths to point right files in your system.
+Copy and import this example flow to your Node-RED. Configure nodes to match your setup, this means that you should corrent paths to point right files in your system and set Basler camera serial numbers according to your setup etc..
 
 This flow will add following subflows in your Node-RED:
 - [IMG] Annotate
