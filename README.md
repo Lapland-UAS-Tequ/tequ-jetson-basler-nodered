@@ -15,6 +15,7 @@ Please first configure your Jetson setup using following repositiories:
 - Basic configuration for Jetson: https://github.com/Lapland-UAS-Tequ/tequ-jetson-setup
 - Triton Inference Server configuration: https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 - Basler Camera configuration: https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
+- Windows 10 configuration: https://github.com/Lapland-UAS-Tequ/win10-nodered-tensorflow
 
 # Node-RED functionality (example 1)
 - Starts local RTSP-server to serve encoded camera stream 
