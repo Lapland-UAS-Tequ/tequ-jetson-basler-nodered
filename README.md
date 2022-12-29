@@ -12,22 +12,9 @@ Other tested Jetson boards:
 - Neousys NRU-120S, Jetson AGX Xavier with Jetpack 4.6.1
 
 Please first configure your Jetson setup using following repositiories:
-
-Basic configuration for Jetson:
-
-https://github.com/Lapland-UAS-Tequ/tequ-jetson-setup
-
-Triton Inference Server configuration:
-
-https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
-
-Basler Camera configuration:
-
-https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
-
-Examples to connect datasource to Tequ-API (credentials needed)
-
-https://github.com/Lapland-UAS-Tequ/tequ-api-client
+- Basic configuration for Jetson: https://github.com/Lapland-UAS-Tequ/tequ-jetson-setup
+- Triton Inference Server configuration: https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
+- Basler Camera configuration: https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
 # Node-RED flow functionality
 - Starts local RTSP-server to serve encoded camera stream 
