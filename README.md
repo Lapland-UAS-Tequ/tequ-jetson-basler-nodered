@@ -70,6 +70,19 @@ npm install piscina &&
 npm install uuid 
 ```
 
+Install tfjs-node-gpu on Jetson
+```
+npm install @tensorflow/tfjs-node-gpu 
+```
+
+```
+cd ~/.node-red/node_modules/@tensorflow/tfjs-node-gpu
+```
+
+```
+npm run build-addon-from-source
+```
+
 Note: If you are using Jetpack 4.6.1 you have to install numjs and canvas more or less manually:
 
 https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server#install-numjs-on-jetson-tested-on-ubuntu-1804--jetpack-46
