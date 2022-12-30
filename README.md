@@ -71,6 +71,8 @@ npm install uuid
 ```
 
 Install tfjs-node-gpu on Jetson
+- Tested using Jetson AGX Orin, Nodejs 16.16.1, Jetpack 5.0.2, tfjs-node-gpu@4.1.0
+
 ```
 npm install @tensorflow/tfjs-node-gpu 
 ```
