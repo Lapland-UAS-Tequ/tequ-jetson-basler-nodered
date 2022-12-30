@@ -85,9 +85,9 @@ npm run build-addon-from-source
 
 Note: If you are using Jetpack 4.6.1 you have to install numjs and canvas more or less manually:
 
-https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server#install-numjs-on-jetson-tested-on-ubuntu-1804--jetpack-46
+- https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server#install-numjs-on-jetson-tested-on-ubuntu-1804--jetpack-46
 
-https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow#5-install-canvas-for-annotating-images
+- https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow#5-install-canvas-for-annotating-images
 
 # Install Node-RED flow
 
