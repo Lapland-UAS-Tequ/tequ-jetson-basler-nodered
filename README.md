@@ -71,19 +71,7 @@ npm install uuid
 ```
 
 Install tfjs-node-gpu on Jetson
-- Tested using Jetson AGX Orin, Node.js 16.19.0 / 18.12.1, Jetpack 5.0.2, tfjs-node-gpu@4.1.0
-
-```
-npm install @tensorflow/tfjs-node-gpu 
-```
-
-```
-cd ~/.node-red/node_modules/@tensorflow/tfjs-node-gpu
-```
-
-```
-npm run build-addon-from-source
-```
+- https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
 Note: If you are using Jetpack 4.6.1 you have to install numjs and canvas more or less manually:
 
